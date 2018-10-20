@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CompanyWeChatTest">
+    <test name="应用">
+        <classes>
+            <class name="Case.Apps" />
+        </classes>
+    </test>
+    <test name="消息">
+        <classes>
+            <class name="Case.Messages" />
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="ReportListener.ExtentTestNGIReporterListener" />
+        <listener class-name="ReportListener.AutoTestListener" />
+        <listener class-name="ReportListener.RetryListener" />
+    </listeners>
+</suite>
