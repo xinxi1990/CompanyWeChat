@@ -25,7 +25,7 @@ public class BasePage {
     public void beforeClass() throws InterruptedException, FileNotFoundException {
         RestAssured.useRelaxedHTTPSValidation();
         PrintStream ps = new PrintStream(new File("test.log"));
-        RestAssured.filters(new RequestLoggingFilter(ps),new ResponseLoggingFilter(ps));
+        RestAssured.filters(new RequestLoggingFilter(),new ResponseLoggingFilter());
         // 打印全局log日志
         initLogger().setLevel(Level.ALL);
         new Login().login();

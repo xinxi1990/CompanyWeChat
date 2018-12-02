@@ -38,8 +38,7 @@ public class GetRequest {
      * 在请求URL中如果有很多个参数,可以用map进行传递,类似于字典
      */
     public static Response postRequestParams(String apiPath, Map map){
-        Response response = (Response) given().
-                params(map).when().get(apiPath).then().extract();
+        Response response = (Response) given().params(map).when().get(apiPath).then().extract();
         return response;
     }
 

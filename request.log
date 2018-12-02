@@ -1,0 +1,209 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for CompanyWeChat:CompanyWeChat:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: io.rest-assured:rest-assured:jar -> version 3.1.0 vs 3.1.1 @ line 46, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: io.rest-assured:json-schema-validator:jar -> version 3.0.1 vs 3.1.1 @ line 115, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.apache.logging.log4j:log4j-api:jar -> version 2.10.0 vs 2.9.1 @ line 167, column 21
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 24, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] --------------------< CompanyWeChat:CompanyWeChat >---------------------
+[INFO] Building CompanyWeChat 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ CompanyWeChat ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ CompanyWeChat ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 27 source files to /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/target/classes
+[WARNING] /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/reportlistener/AutoTestListener.java:[8,16] sun.misc.BASE64Encoder是内部专用 API, 可能会在未来发行版中删除
+[WARNING] /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/reportlistener/AutoTestListener.java:[8,16] sun.misc.BASE64Encoder是内部专用 API, 可能会在未来发行版中删除
+[WARNING] /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/reportlistener/AutoTestListener.java:[8,16] sun.misc.BASE64Encoder是内部专用 API, 可能会在未来发行版中删除
+[WARNING] /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/reportlistener/AutoTestListener.java:[155,9] sun.misc.BASE64Encoder是内部专用 API, 可能会在未来发行版中删除
+[WARNING] /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/reportlistener/AutoTestListener.java:[155,37] sun.misc.BASE64Encoder是内部专用 API, 可能会在未来发行版中删除
+[WARNING] /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/tools/ToLoggerPrintStream.java: /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/tools/ToLoggerPrintStream.java使用或覆盖了已过时的 API。
+[WARNING] /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/tools/ToLoggerPrintStream.java: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+[WARNING] /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/tools/FileUntils.java: 某些输入文件使用了未经检查或不安全的操作。
+[WARNING] /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/java/tools/FileUntils.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CompanyWeChat ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CompanyWeChat ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ CompanyWeChat ---
+[INFO] No tests to run.
+[INFO] Surefire report directory: /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+2018-12-02 17:22:40 [ INFO] - CompanyWeChat -token没有过期!
+Request method:	GET
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/agent/get?access_token=Rkt0trEcc0-8GjvEkY-0keQ-7GBmZkuVpriVe_AYJMa0QInMF1yzfJ4kK0OQ2r0Gi8zRxsgjY0_3YNGj3tp_cnCHzmwqSUKbifI8mpTGXkRM7b-AStttizYM9jXfogN1hO90qDBh97zkknYqhay0OL1nfaJjlcOeyDDQOuLhYnhoKQDAvsi8a0OKDW4pSOBlwBJuarzSVRVfCvAib_3TAw&agentid=1000002
+Proxy:			<none>
+Request params:	access_token=Rkt0trEcc0-8GjvEkY-0keQ-7GBmZkuVpriVe_AYJMa0QInMF1yzfJ4kK0OQ2r0Gi8zRxsgjY0_3YNGj3tp_cnCHzmwqSUKbifI8mpTGXkRM7b-AStttizYM9jXfogN1hO90qDBh97zkknYqhay0OL1nfaJjlcOeyDDQOuLhYnhoKQDAvsi8a0OKDW4pSOBlwBJuarzSVRVfCvAib_3TAw
+				agentid=1000002
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Connection: keep-alive
+Error-Code: 0
+Error-Msg: ok
+Content-Type: application/json; charset=UTF-8
+Content-Length: 334
+
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "agentid": 1000002,
+    "name": "Home",
+    "square_logo_url": "http://p.qlogo.cn/bizmail/p90cNa4aaU8AsvGT22wJOs2rOx0Iicho3lBPMEQKThDxKqq0cibrQOwQ/0",
+    "description": "test",
+    "allow_userinfos": {
+        "user": [
+            
+        ]
+    },
+    "allow_partys": {
+        "partyid": [
+            1
+        ]
+    },
+    "close": 0,
+    "redirect_domain": "",
+    "report_location_flag": 0,
+    "isreportenter": 0,
+    "home_url": ""
+}
+Request method:	GET
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/agent/list?access_token=Rkt0trEcc0-8GjvEkY-0keQ-7GBmZkuVpriVe_AYJMa0QInMF1yzfJ4kK0OQ2r0Gi8zRxsgjY0_3YNGj3tp_cnCHzmwqSUKbifI8mpTGXkRM7b-AStttizYM9jXfogN1hO90qDBh97zkknYqhay0OL1nfaJjlcOeyDDQOuLhYnhoKQDAvsi8a0OKDW4pSOBlwBJuarzSVRVfCvAib_3TAw
+Proxy:			<none>
+Request params:	access_token=Rkt0trEcc0-8GjvEkY-0keQ-7GBmZkuVpriVe_AYJMa0QInMF1yzfJ4kK0OQ2r0Gi8zRxsgjY0_3YNGj3tp_cnCHzmwqSUKbifI8mpTGXkRM7b-AStttizYM9jXfogN1hO90qDBh97zkknYqhay0OL1nfaJjlcOeyDDQOuLhYnhoKQDAvsi8a0OKDW4pSOBlwBJuarzSVRVfCvAib_3TAw
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Connection: keep-alive
+Error-Code: 0
+Error-Msg: ok
+Content-Type: application/json; charset=UTF-8
+Content-Length: 180
+
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "agentlist": [
+        {
+            "agentid": 1000002,
+            "name": "Home",
+            "square_logo_url": "http://p.qlogo.cn/bizmail/p90cNa4aaU8AsvGT22wJOs2rOx0Iicho3lBPMEQKThDxKqq0cibrQOwQ/0"
+        }
+    ]
+}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/agent/set?access_token=Rkt0trEcc0-8GjvEkY-0keQ-7GBmZkuVpriVe_AYJMa0QInMF1yzfJ4kK0OQ2r0Gi8zRxsgjY0_3YNGj3tp_cnCHzmwqSUKbifI8mpTGXkRM7b-AStttizYM9jXfogN1hO90qDBh97zkknYqhay0OL1nfaJjlcOeyDDQOuLhYnhoKQDAvsi8a0OKDW4pSOBlwBJuarzSVRVfCvAib_3TAw
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"agentid":"1000002","description":"test"}
+HTTP/1.1 200 OK
+Connection: keep-alive
+Error-Code: 0
+Error-Msg: ok
+Content-Type: application/json; charset=UTF-8
+Content-Length: 27
+
+{
+    "errcode": 0,
+    "errmsg": "ok"
+}
+2018-12-02 17:22:43 [ INFO] - CompanyWeChat -token没有过期!
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=Rkt0trEcc0-8GjvEkY-0keQ-7GBmZkuVpriVe_AYJMa0QInMF1yzfJ4kK0OQ2r0Gi8zRxsgjY0_3YNGj3tp_cnCHzmwqSUKbifI8mpTGXkRM7b-AStttizYM9jXfogN1hO90qDBh97zkknYqhay0OL1nfaJjlcOeyDDQOuLhYnhoKQDAvsi8a0OKDW4pSOBlwBJuarzSVRVfCvAib_3TAw
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"agentid":"1000002","touser":"@all","text":{"safe":0,"content":1543742563373},"msgtype":"text"}
+Request method:	POST
+Request URI:	https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=Rkt0trEcc0-8GjvEkY-0keQ-7GBmZkuVpriVe_AYJMa0QInMF1yzfJ4kK0OQ2r0Gi8zRxsgjY0_3YNGj3tp_cnCHzmwqSUKbifI8mpTGXkRM7b-AStttizYM9jXfogN1hO90qDBh97zkknYqhay0OL1nfaJjlcOeyDDQOuLhYnhoKQDAvsi8a0OKDW4pSOBlwBJuarzSVRVfCvAib_3TAw
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"agentid":"1000002","touser":"@all","text":{"safe":0,"content":1543742563373},"msgtype":"text"}
+HTTP/1.1 200 OK
+Connection: keep-alive
+Error-Code: 0
+Error-Msg: ok
+Content-Type: application/json; charset=UTF-8
+Content-Length: 44
+
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "invaliduser": ""
+}
+HTTP/1.1 200 OK
+Connection: keep-alive
+Error-Code: 0
+Error-Msg: ok
+Content-Type: application/json; charset=UTF-8
+Content-Length: 44
+
+{
+    "errcode": 0,
+    "errmsg": "ok",
+    "invaliduser": ""
+}
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.29 sec - in TestSuite
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.809 s
+[INFO] Finished at: 2018-12-02T17:22:44+08:00
+[INFO] ------------------------------------------------------------------------

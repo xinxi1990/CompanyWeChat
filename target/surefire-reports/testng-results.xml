@@ -8,66 +8,66 @@
       <![CDATA[token没有过期!]]>
     </line>
   </reporter-output>
-  <suite name="CompanyWeChatTest" duration-ms="3945" started-at="2018-12-02T08:56:08Z" finished-at="2018-12-02T08:56:12Z">
+  <suite name="CompanyWeChatTest" duration-ms="3718" started-at="2018-12-02T09:22:40Z" finished-at="2018-12-02T09:22:43Z">
     <groups>
     </groups>
-    <test name="应用" duration-ms="3494" started-at="2018-12-02T08:56:08Z" finished-at="2018-12-02T08:56:12Z">
+    <test name="应用" duration-ms="3322" started-at="2018-12-02T09:22:40Z" finished-at="2018-12-02T09:22:43Z">
       <class name="testcase.Apps">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcase.Apps@3551a94]" name="beforeClass" is-config="true" duration-ms="1105" started-at="2018-12-02T08:56:08Z" finished-at="2018-12-02T08:56:09Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcase.Apps@3551a94]" name="beforeClass" is-config="true" duration-ms="701" started-at="2018-12-02T09:22:40Z" finished-at="2018-12-02T09:22:40Z">
           <reporter-output>
             <line>
               <![CDATA[token没有过期!]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.Apps@3551a94]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-12-02T08:56:09Z" finished-at="2018-12-02T08:56:09Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.Apps@3551a94]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-12-02T09:22:40Z" finished-at="2018-12-02T09:22:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getApps()[pri:0, instance:testcase.Apps@3551a94]" name="getApps" duration-ms="1403" started-at="2018-12-02T08:56:09Z" finished-at="2018-12-02T08:56:11Z">
+        <test-method status="PASS" signature="getApps()[pri:0, instance:testcase.Apps@3551a94]" name="getApps" duration-ms="1752" started-at="2018-12-02T09:22:40Z" finished-at="2018-12-02T09:22:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getApps -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.Apps@3551a94]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-12-02T08:56:11Z" finished-at="2018-12-02T08:56:11Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.Apps@3551a94]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-12-02T09:22:42Z" finished-at="2018-12-02T09:22:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="getAppsList()[pri:0, instance:testcase.Apps@3551a94]" name="getAppsList" duration-ms="340" started-at="2018-12-02T08:56:11Z" finished-at="2018-12-02T08:56:11Z">
+        <test-method status="PASS" signature="getAppsList()[pri:0, instance:testcase.Apps@3551a94]" name="getAppsList" duration-ms="349" started-at="2018-12-02T09:22:42Z" finished-at="2018-12-02T09:22:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAppsList -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.Apps@3551a94]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-12-02T08:56:11Z" finished-at="2018-12-02T08:56:11Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.Apps@3551a94]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-12-02T09:22:42Z" finished-at="2018-12-02T09:22:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="setApps()[pri:0, instance:testcase.Apps@3551a94]" name="setApps" duration-ms="622" started-at="2018-12-02T08:56:11Z" finished-at="2018-12-02T08:56:12Z">
+        <test-method status="PASS" signature="setApps()[pri:0, instance:testcase.Apps@3551a94]" name="setApps" duration-ms="502" started-at="2018-12-02T09:22:42Z" finished-at="2018-12-02T09:22:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setApps -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcase.Apps@3551a94]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-12-02T08:56:12Z" finished-at="2018-12-02T08:56:12Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcase.Apps@3551a94]" name="afterClass" is-config="true" duration-ms="1" started-at="2018-12-02T09:22:43Z" finished-at="2018-12-02T09:22:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- testcase.Apps -->
     </test> <!-- 应用 -->
-    <test name="消息" duration-ms="426" started-at="2018-12-02T08:56:12Z" finished-at="2018-12-02T08:56:12Z">
+    <test name="消息" duration-ms="381" started-at="2018-12-02T09:22:43Z" finished-at="2018-12-02T09:22:43Z">
       <class name="testcase.Messages">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcase.Messages@6ea12c19]" name="beforeClass" is-config="true" duration-ms="3" started-at="2018-12-02T08:56:12Z" finished-at="2018-12-02T08:56:12Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcase.Messages@6ea12c19]" name="beforeClass" is-config="true" duration-ms="2" started-at="2018-12-02T09:22:43Z" finished-at="2018-12-02T09:22:43Z">
           <reporter-output>
             <line>
               <![CDATA[token没有过期!]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.Messages@6ea12c19]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-12-02T08:56:12Z" finished-at="2018-12-02T08:56:12Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcase.Messages@6ea12c19]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-12-02T09:22:43Z" finished-at="2018-12-02T09:22:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="sendText()[pri:0, instance:testcase.Messages@6ea12c19]" name="sendText" duration-ms="420" started-at="2018-12-02T08:56:12Z" finished-at="2018-12-02T08:56:12Z">
+        <test-method status="PASS" signature="sendText()[pri:0, instance:testcase.Messages@6ea12c19]" name="sendText" duration-ms="377" started-at="2018-12-02T09:22:43Z" finished-at="2018-12-02T09:22:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendText -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcase.Messages@6ea12c19]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-12-02T08:56:12Z" finished-at="2018-12-02T08:56:12Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testcase.Messages@6ea12c19]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-12-02T09:22:43Z" finished-at="2018-12-02T09:22:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

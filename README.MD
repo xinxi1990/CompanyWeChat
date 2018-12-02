@@ -15,7 +15,16 @@ Tools:常用工具封装
 
 
 # 运行命令
-在根目录下执行:mvn test or mvn install
+在根目录下执行:
+mvn test or mvn install
+
+mvn test > request.log
+
+# 生产模版
+```$xslt
+https://segmentfault.com/a/1190000011768799
+```
+
 
 # 报告
 在test-output目录下生成报告

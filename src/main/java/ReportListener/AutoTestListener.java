@@ -31,7 +31,6 @@ public class AutoTestListener extends TestListenerAdapter {
         reportlistener.TestngRetry.resetRetryCount();
         super.onTestSuccess(tr);
         Success ++;
-
     }
 
     @Override
@@ -44,7 +43,6 @@ public class AutoTestListener extends TestListenerAdapter {
     public void onTestSkipped(ITestResult tr) {
         saveResult(tr);
         super.onTestSkipped(tr);
-
     }
 
 
@@ -170,5 +168,8 @@ public class AutoTestListener extends TestListenerAdapter {
         return fileName;
     }
 
-
+    // 在用例执行结束时，打印用例的执行结果信息
+    protected void logTestEnd(ITestResult tr, String result) {
+        Reporter.log(String.format("=============Result: %s=============", result), true);
+    }
 }
