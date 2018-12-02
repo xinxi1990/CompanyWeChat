@@ -15,7 +15,7 @@ Tools:常用工具封装
 
 
 # 运行命令
-在根目录下执行:mvn install
+在根目录下执行:mvn test or mvn install
 
 # 报告
 在test-output目录下生成报告

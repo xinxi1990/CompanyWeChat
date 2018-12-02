@@ -1,4 +1,4 @@
-package ReportListener;
+package reportlistener;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -23,9 +23,9 @@ import java.util.*;
 
 public class ExtentTestNGIReporterListener implements IReporter {
 
-    private static String FILE_NAME = ReportConstant.reportName;
-    public  static final String REPORT_PATH = ReportConstant.REPORT_PATH;
-    public  static final String OUTPUT_FOLDER = ReportConstant.OUTPUT_FOLDER;
+    private static String FILE_NAME = reportlistener.ReportConstant.reportName;
+    public  static final String REPORT_PATH = reportlistener.ReportConstant.REPORT_PATH;
+    public  static final String OUTPUT_FOLDER = reportlistener.ReportConstant.OUTPUT_FOLDER;
     private ExtentReports extent;
     public static int suitePassSize = 0;
     public static int suiteFailSize = 0;
@@ -116,8 +116,8 @@ public class ExtentTestNGIReporterListener implements IReporter {
             reportDir.mkdir();
         }
         ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(OUTPUT_FOLDER + FILE_NAME);
-        htmlReporter.config().setDocumentTitle(ReportUtil.getReportName());
-        htmlReporter.config().setReportName(ReportUtil.getReportName());
+        htmlReporter.config().setDocumentTitle(reportlistener.ReportUtil.getReportName());
+        htmlReporter.config().setReportName(reportlistener.ReportUtil.getReportName());
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setTheme(Theme.STANDARD);
@@ -208,9 +208,9 @@ public class ExtentTestNGIReporterListener implements IReporter {
                     Log log = (Log) logIterator.next();
                     String details = log.getDetails();
                     if(details.contains(ReportUtil.getSpiltTimeAndMsg())){
-                        String time = details.split(ReportUtil.getSpiltTimeAndMsg())[0];
+                        String time = details.split(reportlistener.ReportUtil.getSpiltTimeAndMsg())[0];
                         log.setTimestamp(getTime(Long.valueOf(time)));
-                        log.setDetails(details.substring(time.length()+ReportUtil.getSpiltTimeAndMsg().length()));
+                        log.setDetails(details.substring(time.length()+ reportlistener.ReportUtil.getSpiltTimeAndMsg().length()));
                     }else{
                         log.setTimestamp(getTime(result.getEndMillis()));
                     }

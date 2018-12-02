@@ -1,4 +1,4 @@
-package ReportListener;
+package reportlistener;
 
 import org.testng.IAnnotationTransformer;
 import org.testng.IRetryAnalyzer;
@@ -13,7 +13,7 @@ public class RetryListener  implements IAnnotationTransformer {
                           Constructor testConstructor, Method testMethod) {
         IRetryAnalyzer retry = annotation.getRetryAnalyzer();
         if (retry == null) {
-            annotation.setRetryAnalyzer(TestngRetry.class);
+            annotation.setRetryAnalyzer(reportlistener.TestngRetry.class);
         }
     }
 }

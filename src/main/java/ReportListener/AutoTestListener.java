@@ -1,4 +1,4 @@
-package ReportListener;
+package reportlistener;
 
 
 import org.testng.ITestContext;
@@ -6,7 +6,6 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.TestListenerAdapter;
 import sun.misc.BASE64Encoder;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -22,14 +21,14 @@ import java.util.*;
 
 public class AutoTestListener extends TestListenerAdapter {
 
-    private static File classpathRoot = new File(ReportConstant.rootPath);
+    private static File classpathRoot = new File(reportlistener.ReportConstant.rootPath);
     public static int Success = 0;
     public static int Failure = 0;
 
     @Override
     public void onTestSuccess(ITestResult tr) {
         // TODO Auto-generated method stub
-        TestngRetry.resetRetryCount();
+        reportlistener.TestngRetry.resetRetryCount();
         super.onTestSuccess(tr);
         Success ++;
 

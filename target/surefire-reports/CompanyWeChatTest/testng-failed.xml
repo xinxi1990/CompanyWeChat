@@ -2,20 +2,34 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CompanyWeChatTest]">
   <listeners>
-    <listener class-name="ReportListener.ExtentTestNGIReporterListener"/>
-    <listener class-name="ReportListener.AutoTestListener"/>
-    <listener class-name="ReportListener.RetryListener"/>
+    <listener class-name="reportlistener.ExtentTestNGIReporterListener"/>
+    <listener class-name="reportlistener.AutoTestListener"/>
+    <listener class-name="reportlistener.RetryListener"/>
   </listeners>
   <test thread-count="5" verbose="0" name="应用(failed)">
     <classes>
-      <class name="Case.Apps">
+      <class name="testcase.Apps">
         <methods>
-          <include name="getAppsList"/>
+          <include name="beforeMethod"/>
+          <include name="setApps"/>
           <include name="afterClass"/>
+          <include name="getApps"/>
+          <include name="getAppsList"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testcase.Apps -->
+    </classes>
+  </test> <!-- 应用(failed) -->
+  <test thread-count="5" verbose="0" name="消息(failed)">
+    <classes>
+      <class name="testcase.Messages">
+        <methods>
+          <include name="afterClass"/>
+          <include name="sendText"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- Case.Apps -->
+      </class> <!-- testcase.Messages -->
     </classes>
-  </test> <!-- 应用(failed) -->
+  </test> <!-- 消息(failed) -->
 </suite> <!-- Failed suite [CompanyWeChatTest] -->

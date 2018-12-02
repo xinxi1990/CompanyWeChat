@@ -1,4 +1,4 @@
-package Tools;
+package tools;
 
 import org.apache.log4j.Logger;
 import org.testng.Reporter;

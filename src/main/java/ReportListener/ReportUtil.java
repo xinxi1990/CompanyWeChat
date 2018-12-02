@@ -1,4 +1,4 @@
-package ReportListener;
+package reportlistener;
 
 import org.testng.Reporter;
 
@@ -24,7 +24,7 @@ public class ReportUtil {
     }
 
     public static void setReportName(String reportName) {
-        if(StringUtil.isNotEmpty(reportName)){
+        if(reportlistener.StringUtil.isNotEmpty(reportName)){
             ReportUtil.reportName = reportName;
         }
     }

@@ -1,4 +1,4 @@
-package Tools;
+package tools;
 
 import com.google.gson.Gson;
 import org.yaml.snakeyaml.Yaml;
@@ -142,7 +142,7 @@ public class FileUntils {
 
     public static String getFileName(String basePath){
         removeFolder(basePath, -7);
-        String name = DataUntils.getNow("yyyyMMdd");
+        String name = Tools.DataUntils.getNow("yyyyMMdd");
         File file = new File(basePath + File.separator + name);
         if(! file.exists()){
             return file.getAbsolutePath();
@@ -167,7 +167,7 @@ public class FileUntils {
     }
 
     public static void removeFolder(String basePath, int day){
-        String endDate = DataUntils.getNewDate(day);
+        String endDate = Tools.DataUntils.getNewDate(day);
         File baseFile = new File(basePath);
         if(baseFile.exists()){
             for (File file : baseFile.listFiles()) {

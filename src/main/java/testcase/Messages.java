@@ -1,43 +1,42 @@
-package Case;
+package testcase;
 
-import Base.BasePage;
+import base.BasePage;
+import config.LoadToken;
+import tools.GetRequest;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
-
-import static Case.Apps.agentid;
-import static Case.Login.tokenConfig;
-import static Tools.FileUntils.readYaml;
-import static io.restassured.RestAssured.given;
+import static testcase.Apps.agentid;
+import static testcase.Login.tokenYamlPath;
 
 public class Messages extends BasePage {
 
     String sendTextUrl = "https://qyapi.weixin.qq.com/cgi-bin/message/send?access_token=";
     String accesstoken;
-    Map tokenMap;
 
     @BeforeMethod
     public void beforeMethod(){
-        tokenMap = readYaml(tokenConfig);
-        accesstoken = (String) tokenMap.get("access_token");
+        LoadToken.load(new File(tokenYamlPath));
+        accesstoken= LoadToken.tokenConfig.getAccess_token();
     }
 
 
     @Test
     public void sendText(){
         Map textMap = new HashMap();
-        textMap.put("content","1111");
+        textMap.put("content",System.currentTimeMillis());
         textMap.put("safe",0);
         Map map = new HashMap();
         map.put("agentid", agentid);
         map.put("msgtype", "text");
         map.put("touser","@all");
         map.put("text",textMap);
-        Response response = (Response) given().body(map).when().post(sendTextUrl + accesstoken ).then().extract();
+        Response response = GetRequest.postRequestBody(sendTextUrl + accesstoken,map);
         Assert.assertEquals(response.path("errcode"),0);
 
 

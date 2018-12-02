@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-CompanyWeChatTest">
-              <span class="suite-name border-failed">CompanyWeChatTest</span>
+              <span class="suite-name border-passed">CompanyWeChatTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-CompanyWeChatTest" class="hide-methods failed suite-CompanyWeChatTest"> (hide)</a> <!-- hide-methods failed suite-CompanyWeChatTest -->
-                      <a href="#" panel-name="suite-CompanyWeChatTest" class="show-methods failed suite-CompanyWeChatTest"> (show)</a> <!-- show-methods failed suite-CompanyWeChatTest -->
-                    </span>
-                    <div class="method-list-content failed suite-CompanyWeChatTest">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CompanyWeChatTest" title="Case.Apps" hash-for-method="getAppsList">getAppsList</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-CompanyWeChatTest -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -116,17 +102,22 @@
                     <div class="method-list-content passed suite-CompanyWeChatTest">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CompanyWeChatTest" title="Case.Apps" hash-for-method="getApps">getApps</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CompanyWeChatTest" title="testcase.Apps" hash-for-method="getApps">getApps</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CompanyWeChatTest" title="Case.Messages" hash-for-method="sendText">sendText</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CompanyWeChatTest" title="testcase.Apps" hash-for-method="getAppsList">getAppsList</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-CompanyWeChatTest" title="Case.Apps" hash-for-method="setApps">setApps</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-CompanyWeChatTest" title="testcase.Messages" hash-for-method="sendText">sendText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CompanyWeChatTest" title="testcase.Apps" hash-for-method="setApps">setApps</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-CompanyWeChatTest -->
@@ -141,51 +132,10 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-CompanyWeChatTest" class="panel CompanyWeChatTest">
-          <div class="suite-CompanyWeChatTest-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Case.Apps</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getAppsList">
-                  </a> <!-- getAppsList -->
-                  <span class="method-name">getAppsList</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [1] but found [0]
-	at Case.Apps.getAppsList(Apps.java:56)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CompanyWeChatTest-class-failed -->
           <div class="suite-CompanyWeChatTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Case.Apps</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getApps">
-                  </a> <!-- getApps -->
-                  <span class="method-name">getApps</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="setApps">
-                  </a> <!-- setApps -->
-                  <span class="method-name">setApps</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-CompanyWeChatTest-class-passed -->
-          <div class="suite-CompanyWeChatTest-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Case.Messages</span>
+              <span class="class-name">testcase.Messages</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -197,10 +147,39 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-CompanyWeChatTest-class-passed -->
+          <div class="suite-CompanyWeChatTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.Apps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getApps">
+                  </a> <!-- getApps -->
+                  <span class="method-name">getApps</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAppsList">
+                  </a> <!-- getAppsList -->
+                  <span class="method-name">getAppsList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="setApps">
+                  </a> <!-- setApps -->
+                  <span class="method-name">setApps</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CompanyWeChatTest-class-passed -->
         </div> <!-- panel CompanyWeChatTest -->
         <div panel-name="test-xml-CompanyWeChatTest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/xinxi/Documents/CompanyWeChat/src/main/resources/testNG.xml</span>
+            <span class="header-content">/Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/main/resources/testNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -208,18 +187,18 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;CompanyWeChatTest&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;ReportListener.ExtentTestNGIReporterListener&quot;/&gt;
-    &lt;listener class-name=&quot;ReportListener.AutoTestListener&quot;/&gt;
-    &lt;listener class-name=&quot;ReportListener.RetryListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportlistener.ExtentTestNGIReporterListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportlistener.AutoTestListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportlistener.RetryListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;应用&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Case.Apps&quot;/&gt;
+      &lt;class name=&quot;testcase.Apps&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- 应用 --&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;消息&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Case.Messages&quot;/&gt;
+      &lt;class name=&quot;testcase.Messages&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- 消息 --&gt;
 &lt;/suite&gt; &lt;!-- CompanyWeChatTest --&gt;
@@ -264,26 +243,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'setApps')
-data.setCell(0, 2, 'Case.Apps')
-data.setCell(0, 3, 715);
+data.setCell(0, 1, 'getApps')
+data.setCell(0, 2, 'testcase.Apps')
+data.setCell(0, 3, 1403);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getApps')
-data.setCell(1, 2, 'Case.Apps')
-data.setCell(1, 3, 422);
+data.setCell(1, 1, 'setApps')
+data.setCell(1, 2, 'testcase.Apps')
+data.setCell(1, 3, 622);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'sendText')
-data.setCell(2, 2, 'Case.Messages')
-data.setCell(2, 3, 399);
+data.setCell(2, 2, 'testcase.Messages')
+data.setCell(2, 3, 420);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'getAppsList')
-data.setCell(3, 2, 'Case.Apps')
-data.setCell(3, 3, 353);
+data.setCell(3, 2, 'testcase.Apps')
+data.setCell(3, 3, 340);
 window.suiteTableData['CompanyWeChatTest']= { tableData: data, tableDiv: 'times-div-CompanyWeChatTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-CompanyWeChatTest">
               </div> <!-- times-div-CompanyWeChatTest -->
             </div> <!-- times-div -->
@@ -309,59 +288,57 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Case.Apps</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcase.Apps</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">2776 ms</span>
+                <span class="method-start">1110 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getApps</span>
-                <span class="method-start">2777 ms</span>
+                <span class="method-start">1111 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3199 ms</span>
+                <span class="method-start">2517 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">getAppsList</span>
-                <span class="method-start">3201 ms</span>
+                <span class="method-start">2519 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">3558 ms</span>
+                <span class="method-start">2859 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">setApps</span>
-                <span class="method-start">3559 ms</span>
+                <span class="method-start">2860 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">4274 ms</span>
+                <span class="method-start">3483 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">Case.Messages</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcase.Messages</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">4305 ms</span>
+                <span class="method-start">3510 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">4307 ms</span>
+                <span class="method-start">3514 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">sendText</span>
-                <span class="method-start">4308 ms</span>
+                <span class="method-start">3515 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">4707 ms</span>
+                <span class="method-start">3935 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

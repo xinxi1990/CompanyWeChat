@@ -2,17 +2,17 @@
 <suite name="CompanyWeChatTest">
     <test name="应用">
         <classes>
-            <class name="Case.Apps" />
+            <class name="testcase.Apps" />
         </classes>
     </test>
     <test name="消息">
         <classes>
-            <class name="Case.Messages" />
+            <class name="testcase.Messages" />
         </classes>
     </test>
     <listeners>
-        <listener class-name="ReportListener.ExtentTestNGIReporterListener" />
-        <listener class-name="ReportListener.AutoTestListener" />
-        <listener class-name="ReportListener.RetryListener" />
+        <listener class-name="reportlistener.ExtentTestNGIReporterListener" />
+        <listener class-name="reportlistener.AutoTestListener" />
+        <listener class-name="reportlistener.RetryListener" />
     </listeners>
 </suite>

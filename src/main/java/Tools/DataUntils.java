@@ -3,8 +3,7 @@ package Tools;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-
-import static Tools.FileUntils.sleep;
+import static tools.FileUntils.sleep;
 
 public class DataUntils {
 

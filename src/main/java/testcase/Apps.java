@@ -1,30 +1,30 @@
-package Case;
+package testcase;
 
-import Base.BasePage;
-import Tools.LogUntils;
+import base.BasePage;
+import config.LoadToken;
+import tools.GetRequest;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
-import static Case.Login.tokenConfig;
-import static Tools.FileUntils.readYaml;
-import static io.restassured.RestAssured.given;
+import static testcase.Login.tokenYamlPath;
+
 
 public class Apps extends BasePage {
 
-    String getUrl = "https://qyapi.weixin.qq.com/cgi-bin/agent/get";
-    String setUrl = "https://qyapi.weixin.qq.com/cgi-bin/agent/set?access_token=";
-    String getAppsUrl = "https://qyapi.weixin.qq.com/cgi-bin/agent/list";
+    public static String getUrl = "https://qyapi.weixin.qq.com/cgi-bin/agent/get";
+    public static String setUrl = "https://qyapi.weixin.qq.com/cgi-bin/agent/set?access_token=";
+    public static String getAppsUrl = "https://qyapi.weixin.qq.com/cgi-bin/agent/list";
     public static String agentid= "1000002";
-    String accesstoken;
-    Map tokenMap;
+    public static String accesstoken;
 
     @BeforeMethod
     public void beforeMethod(){
-        tokenMap = readYaml(tokenConfig);
-        accesstoken = (String) tokenMap.get("access_token");
+        LoadToken.load(new File(tokenYamlPath));
+        accesstoken= LoadToken.tokenConfig.getAccess_token();
     }
 
 
@@ -33,7 +33,7 @@ public class Apps extends BasePage {
         Map map = new HashMap();
         map.put("agentid",agentid);
         map.put("access_token",accesstoken);
-        Response response = (Response) given().params(map).when().get(getUrl).then().extract();
+        Response response = GetRequest.postRequestParams(getUrl,map);
         Assert.assertEquals(response.path("errcode"),0);
     }
 
@@ -43,7 +43,7 @@ public class Apps extends BasePage {
         Map map = new HashMap();
         map.put("agentid",agentid);
         map.put("description","test");
-        Response response = (Response) given().when().body(map).post(setUrl + accesstoken).then().extract();
+        Response response = GetRequest.postRequestBody(setUrl + accesstoken,map);
         Assert.assertEquals(response.path("errcode"),0);
     }
 
@@ -52,7 +52,7 @@ public class Apps extends BasePage {
     public void getAppsList(){
         Map map = new HashMap();
         map.put("access_token",accesstoken);
-        Response response = (Response) given().params(map).when().get(getAppsUrl).then().extract();
+        Response response = GetRequest.postRequestParams(getAppsUrl,map);
         Assert.assertEquals(response.path("errcode"),0);
     }
 
