@@ -1,0 +1,12 @@
+{
+  "$schema" : "http://json-schema.org/draft-03/schema#",
+  "additionalProperties" : false,
+  "properties" : {
+    "bar" : {
+      "type":"string"
+    },
+    "foo" : {
+      "type":"string"
+    }
+  }
+}
