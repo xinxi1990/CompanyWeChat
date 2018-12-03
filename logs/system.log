@@ -26,3 +26,55 @@
 2018-12-02 17:21:56 [ INFO] - CompanyWeChat  -token没有过期!
 2018-12-02 17:22:40 [ INFO] - CompanyWeChat  -token没有过期!
 2018-12-02 17:22:43 [ INFO] - CompanyWeChat  -token没有过期!
+2018-12-03 21:15:51 [ERROR] - freemarker.runtime  -Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> corpid  [in template "test.ftl" at line 1, column 11]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> ${corpid}  [in template "test.ftl" at line 1, column 9]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:382)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:115)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at tools.FreemarkerDemo.makeTemplate(FreemarkerDemo.java:83)
+	at tools.FreemarkerDemo.main(FreemarkerDemo.java:17)
+2018-12-03 21:20:39 [ERROR] - freemarker.runtime  -Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> C  [in template "test.ftl" at line 3, column 6]
+
+Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
+
+The failing instruction (FTL stack trace):
+----------
+==> ${C}  [in template "test.ftl" at line 3, column 4]
+----------
+
+Java stack trace (for programmers):
+----------
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:98)
+	at freemarker.core.EvalUtil.coerceModelToString(EvalUtil.java:382)
+	at freemarker.core.Expression.evalAndCoerceToString(Expression.java:115)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.MixedContent.accept(MixedContent.java:93)
+	at freemarker.core.Environment.visit(Environment.java:265)
+	at freemarker.core.Environment.process(Environment.java:243)
+	at freemarker.template.Template.process(Template.java:277)
+	at tools.FreemarkerDemo.makeTemplate(FreemarkerDemo.java:83)
+	at tools.FreemarkerDemo.main(FreemarkerDemo.java:17)

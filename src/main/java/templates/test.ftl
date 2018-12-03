@@ -1,3 +1,3 @@
-corpid: ${corpid}
-corpsecret: ${corpsecret}
-loginapi: ${loginapi}
+A: ${A}
+B: ${B}
+C: ${C}

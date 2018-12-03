@@ -11,7 +11,6 @@ import org.apache.log4j.Level;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import tools.ToLoggerPrintStream;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
