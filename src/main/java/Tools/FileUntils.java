@@ -1,6 +1,8 @@
 package tools;
 
 import com.google.gson.Gson;
+import com.jayway.jsonpath.DocumentContext;
+import com.jayway.jsonpath.JsonPath;
 import org.yaml.snakeyaml.Yaml;
 
 import java.io.*;
@@ -15,6 +17,18 @@ import java.util.Map;
 
 
 public class FileUntils {
+
+    /**
+     * 读Json文件
+     * param JsonPath
+     * return DocumentContext
+     */
+    public static DocumentContext readJson(String path){
+        DocumentContext json=JsonPath.parse(FileUntils.class.getResourceAsStream(path));
+        return json;
+
+    }
+
 
 
     /**
