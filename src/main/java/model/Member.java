@@ -4,6 +4,10 @@ import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import tools.FileUntils;
 
+/***
+ * 组织模块
+ * @author xinxi
+ */
 
 public class Member {
 
@@ -29,15 +33,6 @@ public class Member {
         return member.jsonString();
     }
 
-
-    public static void main(String[] args) {
-        Member m= new Member();
-        m.loadMember();
-        m.setContent("email","name is xinxi");
-        System.out.println(m.getContent());
-
-
-    }
 
 
 }

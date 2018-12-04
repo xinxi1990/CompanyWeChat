@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb488edf-8f80-46c8-9f3f-fd257f2741e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/login.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tools/FileUntils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tools/FileUntils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testcase/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testcase/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/system.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/system.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request.log" beforeDir="false" afterPath="$PROJECT_DIR$/request.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReportListener/AutoTestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReportListener/AutoTestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReportListener/ExtentTestNGIReporterListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReportListener/ExtentTestNGIReporterListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReportListener/ReportConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReportListener/ReportConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/LoadLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/LoadLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/LoadToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/LoadToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/JsonSchemaValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/JsonSchemaValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/json_test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/json_test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/new.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/new.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testcase/Apps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Apps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testcase/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testcase/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcase/MemberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testcase/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testcase/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tools/FreemarkerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tools/FreemarkerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yaml/apps.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yaml/messages.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testNG.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -71,41 +94,41 @@
     <session id="684629730">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="MD" value="3" />
-          <entry key="class" value="26" />
+          <entry key="MD" value="4" />
+          <entry key="class" value="27" />
           <entry key="ftl" value="9" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="120" />
-          <entry key="json" value="8" />
+          <entry key="java" value="156" />
+          <entry key="json" value="13" />
           <entry key="log" value="23" />
           <entry key="properties" value="1" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="10" />
-          <entry key="yaml" value="67" />
+          <entry key="xml" value="11" />
+          <entry key="yaml" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="26" />
-          <entry key="Enforced Plain Text" value="1" />
-          <entry key="JAVA" value="120" />
-          <entry key="JSON" value="8" />
+          <entry key="CLASS" value="27" />
+          <entry key="Enforced Plain Text" value="2" />
+          <entry key="JAVA" value="156" />
+          <entry key="JSON" value="13" />
           <entry key="Log" value="23" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Properties" value="1" />
-          <entry key="XML" value="10" />
-          <entry key="YAML" value="66" />
+          <entry key="XML" value="11" />
+          <entry key="YAML" value="72" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -114,16 +137,16 @@
           <entry key="dummy" value="10" />
           <entry key="ftl" value="10" />
           <entry key="gitignore" value="15" />
-          <entry key="java" value="2590" />
-          <entry key="json" value="49" />
+          <entry key="java" value="3180" />
+          <entry key="json" value="70" />
           <entry key="xml" value="62" />
           <entry key="yaml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2590" />
-          <entry key="JSON" value="49" />
+          <entry key="JAVA" value="3180" />
+          <entry key="JSON" value="70" />
           <entry key="Markdown" value="49" />
           <entry key="PLAIN_TEXT" value="35" />
           <entry key="XML" value="62" />
@@ -135,19 +158,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/yaml/token.yaml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/LoadToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="-506">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/JsonSchemaValidator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Messages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="156">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,10 +179,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/testcase/MemberTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testcase/MessagesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="474">
+              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,48 +191,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.3.0/json-path-2.3.0.jar!/com/jayway/jsonpath/DocumentContext.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Apps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.3.0/json-path-2.3.0.jar!/com/jayway/jsonpath/ReadContext.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Member.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="280">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#443#444#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.3.0/json-path-2.3.0.jar!/com/jayway/jsonpath/WriteContext.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testcase/MemberTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/LoadLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testcase/AppsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -238,22 +262,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/testcase/Apps.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/model/Apps.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/reportlistener/ExtentTestNGIReporterListener.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/testNG.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/TokenConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/MakeToken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testcase/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/Messages.yaml" />
-        <option value="$PROJECT_DIR$/src/main/java/config/token.yaml" />
-        <option value="$PROJECT_DIR$/src/main/java/base/TokenConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/base/LoginConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/login.yaml" />
         <option value="$PROJECT_DIR$/src/main/java/config/MakeToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/TokenConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/LoginConfig.java" />
@@ -262,10 +275,8 @@
         <option value="$PROJECT_DIR$/src/main/java/testcase/Members.java" />
         <option value="$PROJECT_DIR$/src/main/java/testcase/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/yaml/token.yaml" />
-        <option value="$PROJECT_DIR$/src/main/java/config/LoadToken.java" />
         <option value="$PROJECT_DIR$/src/main/java/config/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/testcase/Messages.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testcase/Login.java" />
         <option value="$PROJECT_DIR$/src/main/java/testcase/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/testcase/Apps.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/ToLoggerPrintStream.java" />
@@ -284,7 +295,6 @@
         <option value="$PROJECT_DIR$/src/main/java/tools/FreemarkerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/JSONSchema.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/JsonSchemaValidator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test/json_test.json" />
         <option value="$PROJECT_DIR$/src/main/java/test/new.json" />
         <option value="$PROJECT_DIR$/src/main/java/test/JsonSchemaValidator.java" />
@@ -292,16 +302,30 @@
         <option value="$PROJECT_DIR$/src/main/java/testcase/Test_Member.java" />
         <option value="$PROJECT_DIR$/src/main/java/tools/FileUntils.java" />
         <option value="$PROJECT_DIR$/src/main/resources/member.json" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Member.java" />
         <option value="$PROJECT_DIR$/src/main/java/testcase/MemberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Member.java" />
+        <option value="$PROJECT_DIR$/src/main/java/config/LoadToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testcase/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/token.yaml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Login.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/LoadLogin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/LoadToken.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/apps.json" />
+        <option value="$PROJECT_DIR$/src/main/java/config/DomainConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcase/AppsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Apps.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages.json" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Messages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testcase/MessagesTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1559" />
-    <option name="y" value="47" />
-    <option name="width" value="1635" />
-    <option name="height" value="969" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="388" />
+    <option name="y" value="99" />
+    <option name="width" value="1388" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -340,7 +364,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CompanyWeChat" type="b2602c69:ProjectViewProjectNode" />
@@ -348,7 +372,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tools" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CompanyWeChat" type="b2602c69:ProjectViewProjectNode" />
@@ -356,7 +380,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
+              <item name="reportlistener" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CompanyWeChat" type="b2602c69:ProjectViewProjectNode" />
@@ -365,39 +389,62 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CompanyWeChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanyWeChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanyWeChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanyWeChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanyWeChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanyWeChat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testcase" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543903702660" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543934970569" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/yaml" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/config" />
-      <recent name="$PROJECT_DIR$/src/main/java/Tools" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/tools" />
+      <recent name="$PROJECT_DIR$/src/main/java/templates" />
+      <recent name="$PROJECT_DIR$/src/main/java/yaml" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="testcase" />
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="base" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/templates" />
       <recent name="$PROJECT_DIR$/src/main/java/yaml" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/config" />
+      <recent name="$PROJECT_DIR$/src/main/java/Tools" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,35 +459,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="FreemarkerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tools.FreemarkerDemo" />
-      <module name="CompanyWeChat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonSchemaValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.JsonSchemaValidator" />
-      <module name="CompanyWeChat" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Member" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="model.Member" />
+  <component name="RunManager" selected="TestNG.MessagesTest.sendTextTest">
+    <configuration name="Apps" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CompanyWeChat" />
       <extension name="coverage">
         <pattern>
@@ -448,11 +468,15 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.Apps" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppsTest.getAppsListTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CompanyWeChat" />
       <extension name="coverage">
         <pattern>
@@ -461,12 +485,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcase" />
-      <option name="MAIN_CLASS_NAME" value="testcase.MemberTest" />
+      <option name="MAIN_CLASS_NAME" value="testcase.AppsTest" />
+      <option name="METHOD_NAME" value="getAppsListTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTest.addRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppsTest.getAppsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CompanyWeChat" />
       <extension name="coverage">
         <pattern>
@@ -475,9 +503,47 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcase" />
-      <option name="MAIN_CLASS_NAME" value="testcase.MemberTest" />
-      <option name="METHOD_NAME" value="addRight" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="testcase.AppsTest" />
+      <option name="METHOD_NAME" value="getAppsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppsTest.setAppsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CompanyWeChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcase" />
+      <option name="MAIN_CLASS_NAME" value="testcase.AppsTest" />
+      <option name="METHOD_NAME" value="setAppsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessagesTest.sendTextTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CompanyWeChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testcase" />
+      <option name="MAIN_CLASS_NAME" value="testcase.MessagesTest" />
+      <option name="METHOD_NAME" value="sendTextTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -541,19 +607,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.FreemarkerDemo" />
-      <item itemvalue="Application.JsonSchemaValidator" />
-      <item itemvalue="Application.Member" />
-      <item itemvalue="JUnit.MemberTest.addRight" />
-      <item itemvalue="JUnit.MemberTest" />
+      <item itemvalue="TestNG.Apps" />
+      <item itemvalue="TestNG.AppsTest.getAppsTest" />
+      <item itemvalue="TestNG.AppsTest.setAppsTest" />
+      <item itemvalue="TestNG.AppsTest.getAppsListTest" />
+      <item itemvalue="TestNG.MessagesTest.sendTextTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MemberTest" />
-        <item itemvalue="Application.Member" />
-        <item itemvalue="JUnit.MemberTest.addRight" />
-        <item itemvalue="Application.JsonSchemaValidator" />
-        <item itemvalue="Application.FreemarkerDemo" />
+        <item itemvalue="TestNG.MessagesTest.sendTextTest" />
+        <item itemvalue="TestNG.AppsTest.getAppsListTest" />
+        <item itemvalue="TestNG.AppsTest.setAppsTest" />
+        <item itemvalue="TestNG.AppsTest.getAppsTest" />
+        <item itemvalue="TestNG.Apps" />
       </list>
     </recent_temporary>
   </component>
@@ -571,42 +637,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FreemarkerDemo_test - 2018.12.02 at 21h 46m 20s.xml">
-      <configuration name="FreemarkerDemo.test" configurationId="TestNG" />
+    <history-entry file="Apps_getApps - 2018.12.04 at 22h 03m 11s.xml">
+      <configuration name="Apps.getApps" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FreemarkerDemo_test - 2018.12.02 at 21h 46m 58s.xml">
-      <configuration name="FreemarkerDemo.test" configurationId="TestNG" />
+    <history-entry file="Apps_getApps - 2018.12.04 at 22h 08m 09s.xml">
+      <configuration name="Apps.getApps" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FreemarkerDemo_test - 2018.12.02 at 21h 47m 21s.xml">
-      <configuration name="FreemarkerDemo.test" configurationId="TestNG" />
+    <history-entry file="Apps_getApps - 2018.12.04 at 22h 09m 06s.xml">
+      <configuration name="Apps.getApps" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_Member_addRight - 2018.12.04 at 13h 45m 05s.xml">
-      <configuration name="Test_Member.addRight" configurationId="JUnit" />
+    <history-entry file="Apps - 2018.12.04 at 22h 12m 27s.xml">
+      <configuration name="Apps" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Test_Member - 2018.12.04 at 13h 45m 28s.xml">
-      <configuration name="Test_Member" configurationId="JUnit" />
+    <history-entry file="Apps - 2018.12.04 at 22h 14m 38s.xml">
+      <configuration name="Apps" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MemberTest - 2018.12.04 at 13h 52m 34s.xml">
-      <configuration name="MemberTest" configurationId="JUnit" />
+    <history-entry file="AppsTest_getAppsTest - 2018.12.04 at 22h 42m 11s.xml">
+      <configuration name="AppsTest.getAppsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MemberTest - 2018.12.04 at 13h 54m 16s.xml">
-      <configuration name="MemberTest" configurationId="JUnit" />
+    <history-entry file="AppsTest_getAppsTest - 2018.12.04 at 22h 42m 39s.xml">
+      <configuration name="AppsTest.getAppsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MemberTest - 2018.12.04 at 13h 54m 46s.xml">
-      <configuration name="MemberTest" configurationId="JUnit" />
+    <history-entry file="AppsTest_setAppsTest - 2018.12.04 at 22h 46m 09s.xml">
+      <configuration name="AppsTest.setAppsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MemberTest - 2018.12.04 at 13h 56m 39s.xml">
-      <configuration name="MemberTest" configurationId="JUnit" />
+    <history-entry file="AppsTest_setAppsTest - 2018.12.04 at 22h 48m 20s.xml">
+      <configuration name="AppsTest.setAppsTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MemberTest - 2018.12.04 at 14h 07m 28s.xml">
-      <configuration name="MemberTest" configurationId="JUnit" />
+    <history-entry file="AppsTest_getAppsListTest - 2018.12.04 at 22h 49m 07s.xml">
+      <configuration name="AppsTest.getAppsListTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1559" y="47" width="1635" height="969" extended-state="1" />
+    <frame x="52" y="23" width="1388" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27055869" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22362556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -615,15 +681,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866243" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41163057" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3821656" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2939759" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11592357" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.04939759" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.048407644" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -638,127 +704,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testcase/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1244">
-          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="600" selection-start-line="600" selection-end-line="600" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reportlistener/ErrorRespStatusException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/system.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/report.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/TestNG.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="962" selection-start-line="962" selection-end-line="962" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reportlistener/AutoTestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/reportlistener/ExtentTestNGIReporterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4947">
-          <caret line="211" selection-start-line="211" selection-end-line="211" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/GetRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tools/LogUntils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/templates/AutoCodeDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="290">
-            <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testcase/Messages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="1972" column="20" selection-start-line="1972" selection-start-column="20" selection-end-line="1972" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -779,17 +728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yaml/login.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/testcase/Members.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/yaml/apps.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tools/HotLoad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -825,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="185" column="21" selection-start-line="185" selection-start-column="21" selection-end-line="185" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/templates/test.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -839,20 +771,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yaml/token.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yaml/messages.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yaml/messages.json" />
     <entry file="file://$PROJECT_DIR$/src/main/java/yaml/messages.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -860,51 +779,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/JsonSchemaValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testcase/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testcase/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/json_test.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/testcase/Address.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/testcase/Department.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/json_test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/test/new.json">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/new.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testcase/Apps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,6 +804,26 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.3.0/json-path-2.3.0.jar!/com/jayway/jsonpath/JsonPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/JsonSchemaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yaml/apps.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.3.0/json-path-2.3.0.jar!/com/jayway/jsonpath/ReadContext.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -932,59 +839,219 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.3.0/json-path-2.3.0.jar!/com/jayway/jsonpath/WriteContext.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/TokenConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Member.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/LoginConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="2259" column="23" selection-start-line="2259" selection-start-column="20" selection-end-line="2259" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testcase/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#0#934#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/token.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tools/FileUntils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        <state relative-caret-position="201">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/login.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="176" selection-start-line="176" selection-end-line="195" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="290">
+            <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/token.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/LogUntils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/member.json">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/base/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.3.0/json-path-2.3.0.jar!/com/jayway/jsonpath/WriteContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/DomainConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tools/GetRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/LoadLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/MemberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2862#2863#0" expanded="true" />
+            <element signature="e#2888#2889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/LoadToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/apps.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/jsonpath/json-path/2.3.0/json-path-2.3.0.jar!/com/jayway/jsonpath/JsonPath.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Apps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="280">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testcase/MemberTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Messages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="156">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/AppsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testcase/MessagesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

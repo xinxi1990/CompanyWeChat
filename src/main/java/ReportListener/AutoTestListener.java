@@ -61,9 +61,9 @@ public class AutoTestListener extends TestListenerAdapter {
     public void onFinish(ITestContext testContext) {
         super.onFinish(testContext);
 
-        // List of test results which we will delete later
+        // List of testcase.test results which we will delete later
         ArrayList<ITestResult> testsToBeRemoved = new ArrayList<ITestResult>();
-        // collect all id's from passed test
+        // collect all id's from passed testcase.test
         Set<Integer> passedTestIds = new HashSet<Integer>();
         for (ITestResult passedTest : testContext.getPassedTests()
                 .getAllResults()) {
@@ -78,9 +78,9 @@ public class AutoTestListener extends TestListenerAdapter {
             // id = class + method + dataprovider
             int failedTestId = getId(failedTest);
 
-            // if we saw this test as a failed test before we mark as to be
+            // if we saw this testcase.test as a failed testcase.test before we mark as to be
             // deleted
-            // or delete this failed test if there is at least one passed
+            // or delete this failed testcase.test if there is at least one passed
             // version
             if (failedTestIds.contains(failedTestId)
                     || passedTestIds.contains(failedTestId)) {

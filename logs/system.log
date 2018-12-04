@@ -29,13 +29,13 @@
 2018-12-03 21:15:51 [ERROR] - freemarker.runtime  -Error executing FreeMarker template
 FreeMarker template error:
 The following has evaluated to null or missing:
-==> corpid  [in template "test.ftl" at line 1, column 11]
+==> corpid  [in template "testcase.test.ftl" at line 1, column 11]
 
 Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
 
 The failing instruction (FTL stack trace):
 ----------
-==> ${corpid}  [in template "test.ftl" at line 1, column 9]
+==> ${corpid}  [in template "testcase.test.ftl" at line 1, column 9]
 ----------
 
 Java stack trace (for programmers):
@@ -55,13 +55,13 @@ freemarker.core.InvalidReferenceException: [... Exception message was already pr
 2018-12-03 21:20:39 [ERROR] - freemarker.runtime  -Error executing FreeMarker template
 FreeMarker template error:
 The following has evaluated to null or missing:
-==> C  [in template "test.ftl" at line 3, column 6]
+==> C  [in template "testcase.test.ftl" at line 3, column 6]
 
 Tip: If the failing expression is known to be legally null/missing, either specify a default value with myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthessis: (myOptionVar.foo)!myDefault, (myOptionVar.foo)??
 
 The failing instruction (FTL stack trace):
 ----------
-==> ${C}  [in template "test.ftl" at line 3, column 4]
+==> ${C}  [in template "testcase.test.ftl" at line 3, column 4]
 ----------
 
 Java stack trace (for programmers):
@@ -78,3 +78,16 @@ freemarker.core.InvalidReferenceException: [... Exception message was already pr
 	at freemarker.template.Template.process(Template.java:277)
 	at tools.FreemarkerDemo.makeTemplate(FreemarkerDemo.java:83)
 	at tools.FreemarkerDemo.main(FreemarkerDemo.java:17)
+2018-12-04 22:12:25 [ INFO] - CompanyWeChat  -获取token成功!
+2018-12-04 22:12:25 [ INFO] - CompanyWeChat  -新token写入成功!
+2018-12-04 22:12:26 [ INFO] - CompanyWeChat  -获取token成功!
+2018-12-04 22:12:26 [ INFO] - CompanyWeChat  -新token写入成功!
+2018-12-04 22:42:10 [ INFO] - CompanyWeChat  -获取token成功!
+2018-12-04 22:42:10 [ INFO] - CompanyWeChat  -新token写入成功!
+2018-12-04 22:42:10 [ INFO] - CompanyWeChat  -获取token成功!
+2018-12-04 22:42:10 [ INFO] - CompanyWeChat  -新token写入成功!
+2018-12-04 22:42:37 [ INFO] - CompanyWeChat  -token没有过期!
+2018-12-04 22:46:07 [ INFO] - CompanyWeChat  -token没有过期!
+2018-12-04 22:48:18 [ INFO] - CompanyWeChat  -token没有过期!
+2018-12-04 22:49:05 [ INFO] - CompanyWeChat  -token没有过期!
+2018-12-04 22:59:05 [ INFO] - CompanyWeChat  -token没有过期!

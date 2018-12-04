@@ -16,9 +16,9 @@ Tools:常用工具封装
 
 # 运行命令
 在根目录下执行:
-mvn test or mvn install
+mvn testcase.test or mvn install
 
-mvn test > request.log
+mvn testcase.test > request.log
 
 # 生产模版
 ```$xslt

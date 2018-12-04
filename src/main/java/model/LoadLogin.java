@@ -1,10 +1,10 @@
-package config;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+package model;
 
 import java.io.File;
 import java.io.IOException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
+import config.LoginConfig;
 
 public class LoadLogin {
 

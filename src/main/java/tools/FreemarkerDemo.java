@@ -15,7 +15,7 @@ public class FreemarkerDemo {
     public static void main(String[] args) throws IOException {
 
         makeTemplate();
-        //getTemplate(TEMPLATE_PATH,"test.ftl");
+        //getTemplate(TEMPLATE_PATH,"testcase.test.ftl");
     }
 
 
@@ -75,7 +75,7 @@ public class FreemarkerDemo {
             dataMap.put("B", "B");
             dataMap.put("C", "C");
             // step4 加载模版文件
-            Template template = configuration.getTemplate("test.ftl");
+            Template template = configuration.getTemplate("testcase.test.ftl");
             // step5 生成数据
             File docFile = new File(CLASS_PATH + "/" + "testdemo1.yaml");
             out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(docFile)));

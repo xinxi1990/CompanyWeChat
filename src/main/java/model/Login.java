@@ -1,7 +1,5 @@
-package testcase;
+package model;
 
-import config.LoadLogin;
-import config.LoadToken;
 import config.TokenConfig;
 import tools.LogUntils;
 import io.restassured.response.Response;
@@ -13,15 +11,15 @@ import static io.restassured.RestAssured.given;
 
 public class Login {
 
-    public static String loginYamlPath =  System.getProperty("user.dir") + "/src/main/java/yaml/login.yaml";
-    public static String tokenYamlPath =  System.getProperty("user.dir") + "/src/main/java/yaml/token.yaml";
+    public static String rootPath = System.getProperty("user.dir");
+    public static String loginYamlPath = rootPath + "/src/main/java/config/login.yaml";
+    public static String tokenYamlPath =  rootPath + "/src/main/java/config/token.yaml";
 
     public void login() throws InterruptedException {
         if (checkToken()){
             getToken();
         }
     }
-
 
     /**
      * 获取应用的token值
@@ -70,6 +68,7 @@ public class Login {
         return expires;
     }
 
+
     /**
      * 保存新token
      * @param response
@@ -79,9 +78,13 @@ public class Login {
         LoadToken.tokenConfig = new TokenConfig();
         LoadToken.tokenConfig.setAccess_token((String) response.path("access_token"));
         LoadToken.tokenConfig.setExpirestime(String.valueOf( Expirestime  + getSecondTimestamp()));
-        LoadToken.write(tokenYamlPath);
+        LoadToken.writeToken(tokenYamlPath);
         LogUntils.log_info("新token写入成功!");
 
+    }
+
+    public static void main(String[] args) {
+        getToken();
     }
 
 }

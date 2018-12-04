@@ -185,15 +185,15 @@ public class ExtentTestNGIReporterListener implements IReporter {
                     //作为子节点进行创建时，设置同父节点的标签一致，便于报告检索。
                     test = extenttest.createNode(name).assignCategory(categories);
                 }
-                //test.getModel().setDescription(description.toString());
-                //test = extent.createTest(result.getMethod().getMethodName());
+                //testcase.test.getModel().setDescription(description.toString());
+                //testcase.test = extent.createTest(result.getMethod().getMethodName());
                 for (String group : result.getMethod().getGroups())
                     test.assignCategory(group);
 
                 List<String> outputList = Reporter.getOutput(result);
                 for(String output:outputList){
                     //将用例的log输出报告中
-                    //test.debug(output.replaceAll("<","&lt;").replaceAll(">","&gt;"));
+                    //testcase.test.debug(output.replaceAll("<","&lt;").replaceAll(">","&gt;"));
                     test.debug(output.replaceAll("&lt;","<").replaceAll("&gt;",">"));
                 }
                 if (result.getThrowable() != null) {

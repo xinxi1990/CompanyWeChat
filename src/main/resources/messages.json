@@ -1,0 +1,8 @@
+{
+  "agentid":"1000002",
+  "msgtype": "text",
+  "touser": "@all",
+  "text": {
+    "safe":0
+  }
+}

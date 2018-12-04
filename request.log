@@ -35,12 +35,12 @@
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ CompanyWeChat ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
-[INFO] skip non existing resourceDirectory /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/test/resources
+[INFO] skip non existing resourceDirectory /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/src/testcase.test/resources
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ CompanyWeChat ---
 [INFO] Nothing to compile - all classes are up to date
 [INFO] 
-[INFO] --- maven-surefire-plugin:2.16:test (default-test) @ CompanyWeChat ---
+[INFO] --- maven-surefire-plugin:2.16:testcase.test (default-testcase.test) @ CompanyWeChat ---
 [INFO] No tests to run.
 [INFO] Surefire report directory: /Users/xinxi/Documents/ideaProjcet/CompanyWeChat/target/surefire-reports
 
@@ -74,7 +74,7 @@ Content-Length: 334
     "agentid": 1000002,
     "name": "Home",
     "square_logo_url": "http://p.qlogo.cn/bizmail/p90cNa4aaU8AsvGT22wJOs2rOx0Iicho3lBPMEQKThDxKqq0cibrQOwQ/0",
-    "description": "test",
+    "description": "testcase.test",
     "allow_userinfos": {
         "user": [
             
@@ -132,7 +132,7 @@ Headers:		Accept=*/*
 Cookies:		<none>
 Multiparts:		<none>
 Body:
-{"agentid":"1000002","description":"test"}
+{"agentid":"1000002","description":"testcase.test"}
 HTTP/1.1 200 OK
 Connection: keep-alive
 Error-Code: 0

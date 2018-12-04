@@ -1,6 +1,6 @@
 package testcase;
 
-import com.jayway.jsonpath.JsonPath;
+
 import model.Member;
 import org.junit.BeforeClass;
 import org.junit.Test;

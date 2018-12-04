@@ -1,18 +1,14 @@
-package test;
+package tools;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.fge.jackson.JsonLoader;
 import com.github.fge.jackson.JsonNodeReader;
 import com.github.fge.jsonschema.core.report.LogLevel;
 import com.github.fge.jsonschema.core.report.ProcessingMessage;
 import com.github.fge.jsonschema.core.report.ProcessingReport;
-import com.github.fge.jsonschema.main.JsonSchemaFactory;import com.fasterxml.jackson.databind.JsonNode;
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.apache.commons.io.FileUtils;
+import com.github.fge.jsonschema.main.JsonSchemaFactory;
 import org.testng.Assert;
-import java.io.File;
+
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -88,8 +84,8 @@ public class JsonSchemaValidator {
 
     public static void main(String[] args) throws IOException {
         JsonSchemaValidator jsonSchemaValidator = new JsonSchemaValidator();
-        JsonNode schema = jsonSchemaValidator.readJSONfile("src/main/java/test/json_test.json");
-        JsonNode data = jsonSchemaValidator.readJSONfile("src/main/java/test/new.json");
+        JsonNode schema = jsonSchemaValidator.readJSONfile("src/main/java/testcase.test/json_test.json");
+        JsonNode data = jsonSchemaValidator.readJSONfile("src/main/java/testcase.test/new.json");
         ProcessingReport report = JsonSchemaFactory.byDefault().getValidator().validateUnchecked(schema, data);
         System.out.println(report);
         Assert.assertTrue(report.isSuccess());

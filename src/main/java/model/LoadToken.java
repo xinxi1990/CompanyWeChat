@@ -1,12 +1,18 @@
-package config;
+package model;
 
+import java.io.File;
+import java.util.List;
+import config.TokenConfig;
+import java.io.IOException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.List;
+
+/**
+ * 加载登录token
+ * @author xinxi
+ */
 
 public class LoadToken {
 
@@ -32,7 +38,7 @@ public class LoadToken {
     }
 
 
-    public static void write(String filePath){
+    public static void writeToken(String filePath){
         ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
         try {
             mapper.writeValue(new File(filePath), tokenConfig);
@@ -41,14 +47,6 @@ public class LoadToken {
         }
     }
 
-    public static void writeNull(String filePath){
-        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
-        try {
-            mapper.writeValue(new File(filePath), new TokenConfig());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
 
 

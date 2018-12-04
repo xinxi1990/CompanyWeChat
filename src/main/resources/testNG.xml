@@ -2,12 +2,12 @@
 <suite name="CompanyWeChatTest">
     <test name="应用">
         <classes>
-            <class name="testcase.Apps" />
+            <class name="model.Apps" />
         </classes>
     </test>
     <test name="消息">
         <classes>
-            <class name="testcase.Messages" />
+            <class name="model.Messages" />
         </classes>
     </test>
     <listeners>
